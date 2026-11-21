@@ -31,7 +31,39 @@ An end-to-end modular ETL (Extract, Transform, Load) data pipeline built with Py
 
 ## Setup & Local Execution
 
+### Prerequisites
+- Python 3.10+
+- PostgreSQL 14+ running locally
+
+### Installation Steps
+
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/muhamed-husseny/Ecommerce_ETL_pipline.git](https://github.com/muhamed-husseny/Ecommerce_ETL_pipline.git)
    cd Ecommerce_ETL_pipline
+   ```
+
+2. **Create and activate a virtual environment:**
+   ```bash
+   python -m venv .venv
+   # Windows:
+   .venv\Scripts\activate
+   # macOS/Linux:
+   source .venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Configure environment variables:**
+   Copy `.env.example` to `.env` and update `DB_URL` with your PostgreSQL credentials:
+   ```bash
+   cp .env.example .env
+   ```
+
+5. **Run the pipeline:**
+   ```bash
+   python main.py
+   ```
