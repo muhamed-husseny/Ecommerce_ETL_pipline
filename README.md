@@ -1,6 +1,5 @@
 # Ecommerce_ETL_pipline
 
-# E-Commerce ETL Pipeline
 
 An end-to-end modular ETL (Extract, Transform, Load) data pipeline built with Python, Pandas, SQLAlchemy, and PostgreSQL. It ingests product data from a REST API and a local CSV blacklist, cleans and validates the records, computes category-level inventory metrics, and loads the results into a relational data warehouse.
 
