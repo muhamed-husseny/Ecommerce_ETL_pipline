@@ -25,7 +25,6 @@ An end-to-end modular ETL (Extract, Transform, Load) data pipeline built with Py
 
 ## Database Schema (`src/models.py`)
 
-### Entity-Relationship Diagram (ERD)
 
 ```mermaid
 erDiagram
