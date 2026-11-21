@@ -35,11 +35,11 @@ An end-to-end modular ETL (Extract, Transform, Load) data pipeline built with Py
 - Python 3.10+
 - PostgreSQL 14+ running locally
 
-### Installation Steps
+### Project Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/muhamed-husseny/Ecommerce_ETL_pipline.git](https://github.com/muhamed-husseny/Ecommerce_ETL_pipline.git)
+   git clone https://github.com/muhamed-husseny/Ecommerce_ETL_pipline.git
    cd Ecommerce_ETL_pipline
    ```
 
